@@ -19,7 +19,13 @@ public class Tiempo {
     static String title,temp;
     static Element temperatura, pronostico;
     
-
+    /**
+     * @param doc Es un objeto de tipo Document para conectarse a la página web
+     * @param title Es un string que recoge el titulo de la pagina web
+     * @param temperatura Es un objeto de tipo element que recoge el elemento con la etiqueta indicada
+     * @param pronostico Es un objeto de tipo element que recoge el elemento con la etiqueta indicada
+     * @exception IOException que recoge una excepción al conectarse a la URL
+     */
 
     public static void sacarTiempo() {
 
