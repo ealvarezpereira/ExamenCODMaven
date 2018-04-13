@@ -41,7 +41,7 @@ public class Tiempo {
             pronostico = doc.select("div.today_nowcard-phrase").first();
             
             //Mostramos todo por pantalla
-           JOptionPane.showMessageDialog(null, title+"\n"+temperatura.text()+"\n"+pronostico.text());
+           JOptionPane.showMessageDialog(null, title+"\n"+"Temperatura: "+temperatura.text()+"C"+"\n"+pronostico.text());
 
         } catch (IOException ex) {
             System.out.println("Excepcion al conectarse a la URL "+ex);
